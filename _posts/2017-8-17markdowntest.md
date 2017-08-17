@@ -1,12 +1,15 @@
 ---
 layout: post1
 title: You're up and running!
+permalink: /about/
 ---
 
-Creating my first file in markdown! This is a test to see how the saving and uploading process works. 
+Some information about you!
 
+### More Information
 
+A place to include any other types of information that you'd like to include about yourself.
 
-Thanks,	AC
+### Contact me
 
-8/17/17
+[email@domain.com](mailto:email@domain.com)
