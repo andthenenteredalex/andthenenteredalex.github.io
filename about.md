@@ -4,10 +4,11 @@ title: About
 permalink: /about/
 ---
 
-New to the blogging world, but glad I'm here! 
+
 
 ### More Information
 
+New to the blogging world, but glad I'm here! 
 
 ### Contact me
 
