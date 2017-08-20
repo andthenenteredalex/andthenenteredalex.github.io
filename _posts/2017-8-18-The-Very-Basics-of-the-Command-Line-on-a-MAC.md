@@ -27,11 +27,13 @@ The command `pwd` means **p**rint **w**orking **d**irectory. Print working direc
 So where are we? Let’s figure out how to read the result. 
 
 
+
 ```code
 AlexandersMBP2:~ alexclark$ pwd
 /Users/alexanderclark
 AlexandersMBP2:~ alexclark$
 ```
+
 
 
 When I typed the command in my computer, this is exactly what Terminal showed me.
