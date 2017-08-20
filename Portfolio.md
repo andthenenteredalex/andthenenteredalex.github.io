@@ -5,4 +5,4 @@ layout: page
 sitemap: true 
 ---
 
-Check back soon! Busy writing content! 
+Check back soon! Busy writing content and working on my coding! 
