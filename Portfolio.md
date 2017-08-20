@@ -2,7 +2,7 @@
 title: My Portfolio
 permalink: /portfolio/
 layout: page
-sitemap: false 
+sitemap: true 
 ---
 
 Check back soon! Busy writing content! 
