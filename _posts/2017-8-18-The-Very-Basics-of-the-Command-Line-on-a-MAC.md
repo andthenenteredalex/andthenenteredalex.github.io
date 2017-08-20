@@ -28,11 +28,13 @@ So where are we? Let’s figure out how to read the result.
 
 
 
+
 ```code
 AlexandersMBP2:~ alexclark$ pwd
 /Users/alexanderclark
 AlexandersMBP2:~ alexclark$
 ```
+
 
 
 
