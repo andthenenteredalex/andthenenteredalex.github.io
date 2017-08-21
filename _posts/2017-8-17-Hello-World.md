@@ -1,3 +1,4 @@
 ---
 published: true
 ---
+categories: ['welcome']
