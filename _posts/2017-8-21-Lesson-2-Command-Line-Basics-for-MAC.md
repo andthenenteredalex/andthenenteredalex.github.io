@@ -18,14 +18,15 @@ We know that a directory “fun” exists, because we just made it. Now enter th
  
 We just changed directories. We are now in the directory titled “fun”. As we learned last lesson, the computer always tells us what directory we are in following the `:` in the information on the screen. Now instead of the `~` symbol, we see we are currently in "fun".
 
-```AlexandersMBP2:~ alexclark$ mkdir fun
+```
+AlexandersMBP2:~ alexclark$ mkdir fun
 AlexandersMBP2:~ alexclark$ cd fun
 AlexandersMBP2:fun alexclark$ 
 ```
 
 Run the `pwd` command and your computer will show you where you are.
-
-```AlexandersMBP2:fun alexclark$ pwd
+```
+AlexandersMBP2:fun alexclark$ pwd
 /Users/alexanderclark/fun
 AlexandersMBP2:fun alexclark$
 ```
