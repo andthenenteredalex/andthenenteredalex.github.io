@@ -2,7 +2,7 @@
 published: true
 ---
 
-#### The Very Basics of the Command Line on a MAC
+#### Command Line Basics for MAC
 
 The command line is a method of communicating with your computer using only the keyboard instead of a mouse or trackpad. By typing commands directly into your computer, you bypass the Graphical User Interface (GUI) to accomplish what your computer always does behind the scenes. 
 
