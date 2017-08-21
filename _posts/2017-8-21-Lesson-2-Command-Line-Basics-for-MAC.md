@@ -34,7 +34,7 @@ AlexandersMBP2:fun alexclark$ pwd
 AlexandersMBP2:fun alexclark$
 ```
 
-<u>When we ran the<u> `mkdir` <u>command from the home directory, any directory we made would be in the home directory. But now that we are in the<u> `fun` <u>directory, any directory we make will be in the<u> `fun` <u>directory.<u>
+<u>When we ran the<u>  `mkdir`  <u>command from the home directory, any directory we made would be in the home directory. But now that we are in the<u>  `fun`  <u>directory, any directory we make will be in the<u>  `fun`  <u>directory.<u>
 
 Make a few more directories. Run the following commands: `mkdir dog` . `mkdir “big dog”` . To include a space in a directory name, use quotation marks on each side of the directory title.
 
