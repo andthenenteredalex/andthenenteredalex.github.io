@@ -15,17 +15,6 @@ avatar: /images/andthenenteredalex.PNG
 # Flags below are optional
 #
 
-collections:
-  category:
-    output: true
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: category
-    values:
-      layout: "category"
       
 # Includes an icon in the footer for each username you enter
 footer-links:
