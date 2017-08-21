@@ -2,7 +2,7 @@
 published: true
 ---
 
-#### The Very Basics of the Command Line on a Mac
+#### Command Line Basics for Mac
 ### Lesson 2
 
 
