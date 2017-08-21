@@ -45,4 +45,4 @@ Today’s lesson covered making directories, with the command `mkdir` ,and chang
 
 If you're lost, don't worry at all. We'll be spending more time `cd` -ing and `mkdir` -ing in the next lesson, I just wanted to introduce you to those commands before covering more detail.
 
-Check back later for ##lesson 3
+Check back later for ## Lesson 3. =]
