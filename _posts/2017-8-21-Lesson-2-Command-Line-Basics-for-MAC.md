@@ -8,7 +8,10 @@ published: true
 
 In this lesson we will be creating directories and switching between directories. 
 
+
 Review: What’s a directory? What command did we learn last time?
+
+
 
 Open Terminal. Type `mkdir fun` and hit enter to run the command.
 
@@ -31,7 +34,7 @@ AlexandersMBP2:fun alexclark$ pwd
 AlexandersMBP2:fun alexclark$
 ```
 
-When we ran the `mkdir` command from the home directory, any directory we made would be in the home directory. But now that we are in the `fun` directory, any directory we make will be in the `fun` directory.
+<u>When we ran the<u> `mkdir` <u>command from the home directory, any directory we made would be in the home directory. But now that we are in the<u> `fun` <u>directory, any directory we make will be in the<u> `fun` <u>directory.<u>
 
 Make a few more directories. Run the following commands: `mkdir dog` . `mkdir “big dog”` . To include a space in a directory name, use quotation marks on each side of the directory title.
 
