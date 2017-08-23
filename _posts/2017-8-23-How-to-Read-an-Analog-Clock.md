@@ -3,8 +3,10 @@ published: false
 categories: ['how to']
 ---
 
-Hello, this is the first in my series of simplistic "how to" articles. These are not all going to be related to technology.
-In fact the first one is on how to read a clock!
+Hello, this is the first post in my series of simplistic "how to" articles. These are not all going to be related to technology.
+In fact the first one is How to Read a Clock!
+
+### How to Read an Analogue Clock
 
 
 
@@ -16,6 +18,9 @@ This is for youngsters, or anyone else that wants to learn to read an analog clo
 
 
 The clock’s face is organized in a complete circle, with numbers 1 through 12 spaced evenly around the circle. 
+All hands move the same direction. Imagine all hands pointing straight up. When all hands are standing straight up, they move to the right. From there they swing down the right side of the axis, then they swing under to the left, then up the left side. If you turn your head so that they are always pointing up from your angle, they will always move to the right. This is where we get the term "clockwise." Clockwise is a term defining a direction of motion around an axis, used to refer to turning a screwdriver or knob to accomplish a specific action.
+
+Some clocks have 60 ticks that go all the way around the face, 5 ticks per number, which precisely indicate minutes and seconds with their respective hands.
 
 <<picture of face>>
 
@@ -30,13 +35,14 @@ The clock’s face is organized in a complete circle, with numbers 1 through 12 
 
 
 
-Think of the number 12 as the finish line. Every time a second or minute hand passes the finish line, something new has begun. 
-Each time the second hand passes the 12, (our imaginary finish line) a new minute has begun, and each time the minute hand 
-passes the 12, a new hour has begun.  It is called the minute hand because it points to which minute we are currently in.
 
+
+
+Think of the number 12 as the finish line. Every time a second or minute hand passes the finish line, something new has begun. 
+When the second hand passes 12, (our imaginary finish line), a new minute has begun. Each time the minute hand 
+passes the 12, a new hour has begun. The second hand is called the second hand because it moves once per second and indicates which second we are in. The minute hand is called the minute hand because it points to which minute we are currently in.
 
 There are 60 seconds in one minute. And there are 60 minutes in one hour.
-
 
 The small hand, called the hour hand, shows you which hour it is. Each time the hour hand aligns with a number, that indicates 
 that a new hour is close to beginning, or has begun. It moves so slowly it can be difficult to read. Check your minute hand to 
