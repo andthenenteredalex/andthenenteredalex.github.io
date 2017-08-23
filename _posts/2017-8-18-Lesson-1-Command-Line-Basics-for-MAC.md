@@ -1,5 +1,6 @@
 ---
 published: true
+categories: ['command line']
 ---
 
 #### Command Line Basics for MAC
