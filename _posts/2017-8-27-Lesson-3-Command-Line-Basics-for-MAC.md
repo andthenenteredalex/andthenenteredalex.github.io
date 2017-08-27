@@ -5,7 +5,7 @@ categories: ['command line']
 
 ### Lesson 3
 
-switching between directories and listing directories. 
+Switching between directories and listing directories. 
 
 In Terminal, enter the following commands:
 
@@ -25,7 +25,7 @@ Running ‘ls’ alone lists the contents of whatever directory you are currentl
 
 Run 'cd fun' . 'mkdir fun' . 'cd fun' . 'mkdir fun' . 'cd fun' . 'mkdir fun' . 'cd fun' . 
 
-pwd .
+'pwd' .
 
 
 You should have gotten this. 
