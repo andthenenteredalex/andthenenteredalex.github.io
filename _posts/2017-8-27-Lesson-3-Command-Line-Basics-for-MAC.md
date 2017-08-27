@@ -4,6 +4,7 @@ categories: ['command line']
 ---
 
 ### Lesson 3
+
 switching between directories and listing directories. 
 
 In Terminal, enter the following commands:
@@ -22,29 +23,29 @@ Go back to Terminal, and run the command ‘ls’ . This lists the contents of w
 
 Running ‘ls’ alone lists the contents of whatever directory you are currently in. But you can modify a command to do something else.  This kind of modification to the basic command is called an **argument**. If you run the command ‘ls fun’ , the computer lists the contents of the directory “fun”, even though you aren’t in “fun”.
 
-Run ‘cd fun’ . ‘mkdir fun’ . ‘cd fun’ . ‘mkdir fun’ . ‘cd fun’ . ‘mkdir fun’ . ‘cd fun’ . 
+Run 'cd fun' . 'mkdir fun' . 'cd fun' . 'mkdir fun' . 'cd fun' . 'mkdir fun' . 'cd fun' . 
 
 pwd .
 
 
 You should have gotten this. 
 
-"""AlexandersMBP2:fun alexclark$ pwd
+'''AlexandersMBP2:fun alexclark$ pwd
 
 /Users/alexanderclark/fun/fun/fun/fun
 
-AlexandersMBP2:fun alexclark$"""
+AlexandersMBP2:fun alexclark$'''
 
 
-‘Users/yourname/fun/fun/fun/fun’
+'Users/yourname/fun/fun/fun/fun'
 
 The number of funs should match the number of funs you have created in total, including the one where you started.
 
-This is how ‘cd’ and ‘ls’ work. Left to right.
+This is how 'cd' and 'ls' work. Left to right.
 
-‘cd’ always moves to the right unless the command has been modified. You can run the ‘cd’ command until you run out of directories to the right to change to. How do move to the left? ‘cd ..’ moves back, or to the left, one directory. 
+'cd' always moves to the right unless the command has been modified. You can run the 'cd' command until you run out of directories to the right to change to. How do move to the left? 'cd ..' moves back, or to the left, one directory. 
 
-‘cd ~ ‘ takes you all the way back home if you are somewhere else.
+'cd ~ ' takes you all the way back home if you are somewhere else.
 
 Thanks for reading lesson 3. I'll be back soon with lesson 4. 
 
