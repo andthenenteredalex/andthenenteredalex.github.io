@@ -29,9 +29,11 @@ pwd .
 
 You should have gotten this. 
 
-'AlexandersMBP2:fun alexclark$ pwd' 
-'/Users/alexanderclark/fun/fun/fun/fun' 
-'AlexandersMBP2:fun alexclark$'
+"""AlexandersMBP2:fun alexclark$ pwd
+
+/Users/alexanderclark/fun/fun/fun/fun
+
+AlexandersMBP2:fun alexclark$"""
 
 
 ‘Users/yourname/fun/fun/fun/fun’
