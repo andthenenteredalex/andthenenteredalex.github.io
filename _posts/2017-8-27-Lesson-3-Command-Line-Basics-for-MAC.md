@@ -26,13 +26,11 @@ Run `cd fun` . `mkdir fun` . `cd fun` . `mkdir fun` . `cd fun` . `mkdir fun` . `
 
 You should have gotten this. 
 
-`AlexandersMBP2:fun alexclark$ pwd`
-
-`/Users/alexanderclark/fun/fun/fun/fun`
-
-`AlexandersMBP2:fun alexclark$`
-
-
+```code
+AlexandersMBP2:fun alexclark$ pwd
+/Users/alexanderclark/fun/fun/fun/fun
+AlexandersMBP2:fun alexclark$
+```
 
 
 `Users/yourname/fun/fun/fun/fun`
