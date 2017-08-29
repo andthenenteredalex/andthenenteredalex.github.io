@@ -3,24 +3,19 @@ published: false
 categories: ['how to']
 ---
 
-Hello, this is the first post in my series of simplistic "how to" articles. These are not all going to be related to technology.
-In fact the first one is How to Read a Clock!
+Hello, all. This is the first post in my simplistic "how to" series. 
 
 ### How to Read an Analogue Clock
 
 
-
-
-
-This is for youngsters, or anyone else that wants to learn to read an analog clock or watch.
+This is for youngsters, or anyone else that doesn't know how to read an analog clock or watch.
 
 
 
 
-The clock’s face is organized in a complete circle, with numbers 1 through 12 spaced evenly around the circle. 
-All hands move the same direction. Imagine all hands pointing straight up. When all hands are standing straight up, they move to the right. From there they swing down the right side of the axis, then they swing under to the left, then up the left side. If you turn your head so that they are always pointing up from your angle, they will always move to the right. This is where we get the term "clockwise." Clockwise is a term defining a direction of motion around an axis, used to refer to turning a screwdriver or knob to accomplish a specific action.
+The clock’s face is organized in a complete circle, with numbers 1 through 12 spaced evenly around the outer edge of the circle. All hands move the same direction. Imagine all hands pointing straight up. When all hands are standing straight up, their tips move only to the right. From there they swing down the right side of the axis, then they swing under to the left, then up the left side back to the center once they reach the top. This is where we get the term "clockwise." Clockwise is a term defining a direction of motion around an axis, used to refer to the turning of a screwdriver or knob to accomplish a specific action. Since clock hands move in only one direction, this term is universally accepted and understood.
 
-Some clocks have 60 ticks that go all the way around the face, 5 ticks per number, which precisely indicate minutes and seconds with their respective hands.
+
 
 <<picture of face>>
 
@@ -36,7 +31,9 @@ Some clocks have 60 ticks that go all the way around the face, 5 ticks per numbe
 
 
 
+Look at the picture of the clock. Identify the three hands. Notice the 12 numbers, where the 1 is, and how they increase clockwise.
 
+<the 3 hands>
 
 Think of the number 12 as the finish line. Every time a second or minute hand passes the finish line, something new has begun. 
 When the second hand passes 12, (our imaginary finish line), a new minute has begun. Each time the minute hand 
@@ -52,6 +49,9 @@ hours.
 
 The second hand indicates which second you are in, just like the minute hand indicates which minute of an hour. 
 
+
+
+<Some clocks have 60 ticks that go all the way around the face, 5 ticks per number, which precisely indicate minutes and seconds with their respective hands.>
 
 
 
