@@ -3,9 +3,8 @@ published: true
 categories: ['command line']
 ---
 
-
-
 ### Lesson 3
+
 #### Command Line Basics for MAC
 
 Switching between directories and listing directories. 
