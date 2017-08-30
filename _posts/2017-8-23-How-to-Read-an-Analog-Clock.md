@@ -34,7 +34,9 @@ Each time the *second hand* passes 12 a new minute has begun.
 <picture of a clock>
 
 
-Look at the picture of the clock. Identify the three hands. Notice the 12 numbers and how they increase in the clockwise direction. Note that 12 is on top and 6 is directly across the circle from 12. The 3 and 9 are halfway up the sides from 6. The spacing is relative, meaning each number is the same distance from the previous number, and since the 6 is exactly halfway aroudn the circle, when a minute or second hand reaches the 6, half of a minute or hour has been completed.
+Look at the picture of the clock. Identify the three hands. Notice the 12 numbers and how they increase in the clockwise direction. Note that 12 is on top and 6 is directly across the circle from 12. The 3 and 9 are halfway up either side. The spacing is equal, each number is the same distance from the previous number. 
+
+The 6 is exactly halfway around the circle, when a minute or second hand reaches the 6, half of a minute or hour has been completed.
 
 Think of the number 12 as the finish line. Every time a second or minute hand passes the finish line, something new has begun. 
 When the second hand passes 12, (our imaginary finish line), a new minute has begun. Each time the minute hand 
