@@ -5,7 +5,7 @@ categories: ['command line']
 
 ### Lesson 4
 
-### The Basics of the Command Line on a Mac
+### Command Line Basics for Mac
 
 
 Hello! 
