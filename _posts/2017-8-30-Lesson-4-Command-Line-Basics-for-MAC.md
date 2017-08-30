@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 categories: ['command line']
 ---
 
@@ -52,14 +52,14 @@ mkdir fun/cat/cat/kitty
 mkdir fun/cat/cat/porcupine
 ```
 
-`ls fun/cat/cat` Then `cd fun/cat/cat`
+`ls fun/cat/cat` , then `cd fun/cat/cat` .
 
 From there, run `cd ~/fun/fun/fun` . Then `pwd` , then `cd ~/Documents` , `ls` , then `cd ~` . 
 
 
 Remember to `pwd` to see where you are. This is when `pwd` is helpful, since it can get confusing navigating all these directories with only the text in Terminal. `pwd` helps you take a step back and see where you are.   
 
-To visualize all of this, you can open the window in your finder again. Click your Desktop, click the Go in the top bar, click on Home roughly halfway down. This opens the window. 
+To visualize all of this, open the window in your finder again. Click your Desktop, click the Go in the top menu bar, click on Home roughly halfway down. This opens the window. 
 
 
 
