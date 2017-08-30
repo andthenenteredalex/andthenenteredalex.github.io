@@ -3,8 +3,9 @@ published: true
 categories: ['command line']
 ---
 
-#### Command Line Basics for Mac
 ### Lesson 2
+
+#### Command Line Basics for Mac
 
 
 In this lesson we will be creating directories and switching between directories. 
