@@ -17,30 +17,43 @@ Last lesson we used `mkdir` to make a new dirctory located in our current direct
 
 We can modify a command to do something more complicated, such as changing to a completely different directory, or specifying somewhere else to make a directory, and so on. *This modification is called an argument*.
 
+Type this exactly from your terminal home page: 
+
+mkdir fun/cat
+mkdir fun/dog
+mkdir fun/porcupine
+mkdir fun/capybara
+
+You just made the directories "cat", "dog", "porcupine" and "capybara" from the ~ location but told the computer to make the directories inside fun instead of your current location. 
+
+Run this: mkdir fun/cat/cat , then mkdir fun/cat/dog , then mkdir fun/cat/porcupine .
+
+This time the new directories "cat" and "dog" are located within the "cat" directort which is inside "fun".
+
+Using the / character (forward slash) instructs the computer exactly where to make the directory.  
+
+This / character works for other commands too.
+
+ls fun/cat lists the contents of the cat directory. 
+
+cd fun/cat changes directories to cat.
 
 
+Practice exercises:
 
-explain / and have them do.
+mkdir fun/cat/cat/cat
+mkdir fun/cat/cat/dog
+mkdir fun/cat/cat/kitty
+mkdir fun/cat/cat/porcupine
 
+ls fun/cat/cat
+cd fun/cat/cat
 
-ls, using  / to specifying location.
+Remember to run pwd to see where you are. This is when pwd is helpful. It can get confusing navigating all these directories with only the text in Terminal, and pwd helps you take a step back and see where you are.   
 
-ls /
-cd /users/alex/documents
-cd /
-mkdir /
+To visualize this all, you can open the window in your finder again. Click desktop, click the Go in the top bar, click on Home roughly halfway down. This opens the window. 
 
-cd-
-cd..
+Trom there, run cd ~/fun/fun/fun . Then pwd , cd ~/Documents
 
+Keep practicing, it's really complicated at first, but it gets easier.
 
-If you still have the directories we made last time, these commands will work.
-
-cd fun/fun
-cd ~/zad
-fun/fun/fun/fun
-cd ~/Documents
-
-
-
-I will include a reference table at the end of this post defining everything we've done so far with command line and all functions. I might throw in a few more things for you to experiment with.
