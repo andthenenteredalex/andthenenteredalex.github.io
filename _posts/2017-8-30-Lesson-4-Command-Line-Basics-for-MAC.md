@@ -9,51 +9,59 @@ categories: ['command line']
 
 
 Hello! 
-This is where things are going to start getting more complicated. Now that you are used to running commands and can make, change and list the contents of directories, I'm going to explain how to give the computer more specific instructions which ultimatey allow us to cut out steps.
+
+This is where things are going to start getting more complicated. Now that you are used to running the commands mkdir, cd and ls, you can learn how to make these commands more useful by giving the computer more specific instructions. It is possible to make a directory in a different location, list the contents of a different directory, and change directories more efficiently.
 
 Review:
 
-Last lesson we used `mkdir` to make a new dirctory located in our current directory, `ls` to list the contents of the current directory, and `cd` to change our directory. We did specify which directory to change to and what to title our new directory, but we didn't take it further]] farther]]? than that. `cd ~` changed to the home directory, and `cd..` took us back (to the left) one directory. 
+Last lesson you used `mkdir` to make a new dirctory located in your current directory, `ls` to list the contents of your current directory, and `cd` to change your directory. You did specify which directory to change to and what to title each new directory, but there's more. `cd ~` changed to the home directory, and `cd..` took you back (to the left) one directory. 
 
-We can modify a command to do something more complicated, such as changing to a completely different directory, or specifying somewhere else to make a directory, and so on. *This modification is called an argument*.
+You can modify a command to do something more complicated, such as changing to a completely different directory, or specifying somewhere else to make a directory, and so on. *These modifications are called arguments*.
 
 Type this exactly from your terminal home page: 
 
+```
 mkdir fun/cat
 mkdir fun/dog
 mkdir fun/porcupine
 mkdir fun/capybara
+```
 
-You just made the directories "cat", "dog", "porcupine" and "capybara" from the ~ location but told the computer to make the directories inside fun instead of your current location. 
+You just made the directories "cat", "dog", "porcupine" and "capybara" from the `~` location but told the computer to make the directories inside "fun" instead of your current location. 
 
-Run this: mkdir fun/cat/cat , then mkdir fun/cat/dog , then mkdir fun/cat/porcupine .
+Run this: `mkdir fun/cat/cat` , then `mkdir fun/cat/dog` , then `mkdir fun/cat/porcupine` .
 
-This time the new directories "cat" and "dog" are located within the "cat" directort which is inside "fun".
+This time the new directories "cat" and "dog" were created inside the "cat" directort which is inside "fun". See how this works? 
 
-Using the / character (forward slash) instructs the computer exactly where to make the directory.  
+Using the `/` character (forward slash) instructs the computer exactly where to make the directory.  
 
-This / character works for other commands too.
+This `/` character works for other commands too.
 
-ls fun/cat lists the contents of the cat directory. 
+Run `ls fun/cat` to list the contents of the cat directory.  
 
-cd fun/cat changes directories to cat.
+Run `cd fun/cat` to change the directory to "cat".
 
+Run `cd .. ` to get back to "fun", then `cd ..` to get back to " ~ ".
 
-Practice exercises:
+# Practice exercises:
 
+```
 mkdir fun/cat/cat/cat
 mkdir fun/cat/cat/dog
 mkdir fun/cat/cat/kitty
 mkdir fun/cat/cat/porcupine
+```
 
-ls fun/cat/cat
-cd fun/cat/cat
+`ls fun/cat/cat` Then `cd fun/cat/cat`
 
-Remember to run pwd to see where you are. This is when pwd is helpful. It can get confusing navigating all these directories with only the text in Terminal, and pwd helps you take a step back and see where you are.   
+From there, run `cd ~/fun/fun/fun` . Then `pwd` , then `cd ~/Documents` , `ls` , then `cd ~` . 
 
-To visualize this all, you can open the window in your finder again. Click desktop, click the Go in the top bar, click on Home roughly halfway down. This opens the window. 
 
-Trom there, run cd ~/fun/fun/fun . Then pwd , cd ~/Documents
+Remember to `pwd` to see where you are. This is when `pwd` is helpful, since it can get confusing navigating all these directories with only the text in Terminal. `pwd` helps you take a step back and see where you are.   
+
+To visualize all of this, you can open the window in your finder again. Click your Desktop, click the Go in the top bar, click on Home roughly halfway down. This opens the window. 
+
+
 
 Keep practicing, it's really complicated at first, but it gets easier.
 
