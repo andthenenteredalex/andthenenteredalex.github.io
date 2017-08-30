@@ -37,7 +37,7 @@ Using the `/` character (forward slash) instructs the computer exactly where to 
 
 This `/` character works for other commands too.
 
-Run `ls fun/cat` to list the contents of the cat directory.  
+Run `ls fun/cat` to list the contents of the "cat" directory.  
 
 Run `cd fun/cat` to change the directory to "cat".
 
