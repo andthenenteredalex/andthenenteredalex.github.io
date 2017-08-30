@@ -27,11 +27,11 @@ mkdir fun/porcupine
 mkdir fun/capybara
 ```
 
-You just made the directories "cat", "dog", "porcupine" and "capybara" from the `~` location but told the computer to make the directories inside "fun" instead of your current location. 
+You just made the directories "cat", "dog", "porcupine" and "capybara" from the "~" location but told the computer to make the directories inside "fun" instead of your current location. 
 
 Run this: `mkdir fun/cat/cat` , then `mkdir fun/cat/dog` , then `mkdir fun/cat/porcupine` .
 
-This time the new directories "cat" and "dog" were created inside the "cat" directort which is inside "fun". See how this works? 
+This time the new directories "cat", "dog" and "porcupine" were created inside the "cat" directort which is inside "fun". See how this works? 
 
 Using the `/` character (forward slash) instructs the computer exactly where to make the directory.  
 
