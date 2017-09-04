@@ -1,5 +1,6 @@
 ---
 layout: page
+<body style="background-color:whitesmoke;">
 title: About
 permalink: /about/
 ---
