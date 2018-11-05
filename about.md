@@ -9,7 +9,7 @@ permalink: /about/
 
 
 
-New to the blogging world, but glad I'm here! 
+Cyber Security Analyst. Interested in sharing knowlege and techniques with anyone interested in learning.
 
 ### Contact me
 
