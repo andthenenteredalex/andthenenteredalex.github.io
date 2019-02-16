@@ -1,7 +1,7 @@
 ---
 layout: page
 <body style="background-color:whitesmoke;">
-title: Tutorials
-permalink: /tutorials/
+title: Projects
+permalink: /projects/
 ---
-I'll post my tutorials here, organized by topic.
+Working on some exciting projects. I'll be posting info here.
