@@ -1,6 +1,6 @@
 ---
 categories: ['welcome']
-published: true
+published: false
 ---
 
 Hello world! This is my first real blog post. I'm not new to the writing world, but I am new to the computer world. 
