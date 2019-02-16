@@ -5,6 +5,4 @@ layout: page
 sitemap: true 
 ---
 
-Command Line Basics
-
 // link to command line.
