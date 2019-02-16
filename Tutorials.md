@@ -1,6 +1,6 @@
 ---
-title: Tutorials
-permalink: /tutorials/
+title: Projects
+permalink: /projects/
 layout: page
 sitemap: true 
 ---
