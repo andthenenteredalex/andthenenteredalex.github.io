@@ -20,7 +20,7 @@ I opened a phishing URL I found and have a tool called Fiddler running in the ba
 
 After clicking the link, here is the landing page. It is likely that this was sent out in emails to enterprises with a message along the lines of "Here is the document you asked for. Kindly respond with feedback at your earliest convenience." There is generally a sense of urgency, and it is common to see misspellings in emails as well. 
 
-![useful image1]({{ site.url }}/images/Page1.png)
+![useful image1]({{ site.url }}/images/Page1.PNG)
 
 Notice the URL in the window. It used to be the advice to users was to look for the lock. But this is based around a fundamental misunderstanding for how digital certificates are used. All the lock really means is that your connection is encrypted, and, if you don't see any red or errors, depending on yours browser, it means that the person or organization in control of the server on the other end has been certified to be who they say they are, as vouched for by a neutral 3rd party who your computer OS manufacturer also trusts. That's it. See the loophole? The certificate is certified by a neutral party to belong to the person who is using it on the other end. Do you trust that they're who they say they are? Of course they're who they say they are! Why would they not be? You can see mismatched errors, for example in using the certificate with a domain that is not listed on the certificate.
 
@@ -31,20 +31,20 @@ But the other thing to note, the initial certificate is given to Microsoft. Micr
 
 After clicking the Review Document link for the PDF, I'm taken to this page. A rather generic, unflashy page. You will never see a webpage on the up and up which gives you so many sign-in options, especially not a generic 'other'.
 
-![useful image2]({{ site.url }}/images/Page2.png)
+![useful image2]({{ site.url }}/images/Page2.PNG)
 
 Again, notice the URL in the window. And the fact that we see the lock... That means that our connection is encrypted and that whoever is in control of wordpress1968310[.]home[.]pl is who they say they are, as vouched for by a neutral entity which your OS manuacturer trusts.
 
 I'm going to click all three, "Login with Office 365", "Login with Outlook", and "Login with Other Mail" just because I'm curious and want to see where these go.
 
 After clicking the Login with Office 365 link, a new window pops up, also with an encrypted connection. This seriously looks sketchy... And check out that URL in the address bar.
-![useful image3]({{ site.url }}/images/page3-after-clicking-login-with-office-365)
+![useful image3]({{ site.url }}/images/page3-after-clicking-login-with-office-365.PNG)
 
 Similar idea for the Outlook window. 
-![useful image4]({{ site.url }}/images/page4-after-clicking-login-with-outlook)
+![useful image4]({{ site.url }}/images/page4-after-clicking-login-with-outlook.PNG)
 
 The Other Email link, this one just cracks me up...
-![useful image5]({{ site.url }}/images/page-5-after clicking-login-with-other-email)
+![useful image5]({{ site.url }}/images/page-5-after clicking-login-with-other-email.PNG)
 
 Evidently, no matter what you use to receive email, it will work to authenticate to this server and allow you to access their imaginary document.
 
@@ -62,11 +62,11 @@ The quest begins: Where do my username and password go if I enter them here? I t
 
 In this case, let's look to the session information from Fiddler. After I enteed a bogus username and password into the Outlook fake sign-in page we can see my credentials being sent to the site hosted at the initial wordpress domain. These username and password are passed beautifully in an HTTP post request and no errors were received. We know without a dubt that this is not a valid username and password pair as I just ran my hands across the keyboard to create random gibberish.
 
-![useful image6]({{ site.url }}/images/page7-username-and-password-being-passed-in-POST-to-wordpress)
+![useful image6]({{ site.url }}/images/page7-username-and-password-being-passed-in-POST-to-wordpress.PNG)
 
 
 For the same POST request, in the RAW data you can see the credentials URL-encoded with the creative parameter name of 'email'.
-![useful image7]({{ site.url }}/images/page8-username+password-POST-rquest)
+![useful image7]({{ site.url }}/images/page8-username+password-POST-rquest.PNG)
 
 This request redirected (you can see the HTTP 302 response code) to a landing page that had been taken down. I'm not sure what that would have, or might have been. I was dumped out at a generic hosting company's advertisement, which often means the domain is parked or available.
 
