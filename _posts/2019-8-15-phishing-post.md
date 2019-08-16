@@ -20,7 +20,7 @@ I opened a phishing URL I found and have a tool called Fiddler running in the ba
 
 After clicking the link, here is the landing page. It is likely that this was sent out in emails to enterprises with a message along the lines of "Here is the document you asked for. Kindly respond with feedback at your earliest convenience." There is generally a sense of urgency, and it is common to see misspellings in emails as well. 
 
-![useful image]({{ site.url }}/images/Page1.png)
+![useful image1]({{ site.url }}/images/Page1.png)
 
 Notice the URL in the window. It used to be the advice to users was to look for the lock. But this is based around a fundamental misunderstanding for how digital certificates are used. All the lock really means is that your connection is encrypted, and, if you don't see any red or errors, depending on yours browser, it means that the person or organization in control of the server on the other end has been certified to be who they say they are, as vouched for by a neutral 3rd party who your computer OS manufacturer also trusts. That's it. See the loophole? The certificate is certified by a neutral party to belong to the person who is using it on the other end. Do you trust that they're who they say they are? Of course they're who they say they are! Why would they not be? You can see mismatched errors, for example in using the certificate with a domain that is not listed on the certificate.
 
@@ -31,20 +31,20 @@ But the other thing to note, the initial certificate is given to Microsoft. Micr
 
 After clicking the Review Document link for the PDF, I'm taken to this page. A rather generic, unflashy page. You will never see a webpage on the up and up which gives you so many sign-in options, especially not a generic 'other'.
 
-![useful image]({{ site.url }}/images/Page2.png)
+![useful image2]({{ site.url }}/images/Page2.png)
 
 Again, notice the URL in the window. And the fact that we see the lock... That means that our connection is encrypted and that whoever is in control of wordpress1968310[.]home[.]pl is who they say they are, as vouched for by a neutral entity which your OS manuacturer trusts.
 
 I'm going to click all three, "Login with Office 365", "Login with Outlook", and "Login with Other Mail" just because I'm curious and want to see where these go.
 
 After clicking the Login with Office 365 link, a new window pops up, also with an encrypted connection. This seriously looks sketchy... And check out that URL in the address bar.
-![useful image]({{ site.url }}/images/page3-after-clicking-login-with-office-365)
+![useful image3]({{ site.url }}/images/page3-after-clicking-login-with-office-365)
 
 Similar idea for the Outlook window. 
-![useful image]({{ site.url }}/images/page4-after-clicking-login-with-outlook)
+![useful image4]({{ site.url }}/images/page4-after-clicking-login-with-outlook)
 
 The Other Email link, this one just cracks me up...
-![useful image]({{ site.url }}/images/page-5-after clicking-login-with-other-email)
+![useful image5]({{ site.url }}/images/page-5-after clicking-login-with-other-email)
 
 Evidently, no matter what you use to receive email, it will work to authenticate to this server and allow you to access their imaginary document.
 
@@ -60,17 +60,29 @@ The quest begins: Where do my username and password go if I enter them here? I t
 
 
 
-In this case, let's look to the session information from Fiddler. 
+In this case, let's look to the session information from Fiddler. After I enteed a bogus username and password into the Outlook fake sign-in page we can see my credentials being sent to the site hosted at the initial wordpress domain. These username and password are passed beautifully in an HTTP post request and no errors were received. We know without a dubt that this is not a valid username and password pair as I just ran my hands across the keyboard to create random gibberish.
+
+![useful image6]({{ site.url }}/images/page7-username-and-password-being-passed-in-POST-to-wordpress)
 
 
+For the same POST request, in the RAW data you can see the credentials URL-encoded with the creative parameter name of 'email'.
+![useful image7]({{ site.url }}/images/page8-username+password-POST-rquest)
 
+This request redirected (you can see the HTTP 302 response code) to a landing page that had been taken down. I'm not sure what that would have, or might have been. I was dumped out at a generic hosting company's advertisement, which often means the domain is parked or available.
 
+Some of the social engineering pages associated with this kind of attack are taken down quickly. It used to be that domains were registered and then immediately used in an attack, but many security tools are aware of this and are now incorporting protection for newly seen domains, or, domains that haven't been around very long. Therefore, attacks can register names far in advance of their pplanned attack, or purchase already registered domains so to not trigger these alarms.
 
+In some more advanced social engineering attacks of this kind, I've seen a page that looked identical to a Microsoft or Dropbox login page in which, after passing in bogus credentials, you are taken to a legitimate Microsoft page and told that you entered invald credentials. At the time of this writing, in late summer of 2019, this is as deep as I've dug into these. But I now have a test Outlook email account I intend to compromise in any site that looks like it passes, or could potentially pass credentials to Microsoft for verification, and will uncover the depth these go. I will be digging into this in the future.
 
+I have two theories: one, the simple one, is that the initial page takes the credentials you entered, assumes that they are valid, and just accepts that risk  that they may not be valid, and then drops you off at a Microsoft login page asking for you to re-enter your username and password. In this scenario, the user assumes that they must have mistyped it, and they proceed to carefully type it, and then when they are successfully logged into Microsoft, they don't recognize that they were phished at all and get distracted by the fact that they are now logged into Microft. This is typically Office 365 in these kinds of attacks against enterprises because of the wide use of O365.
 
-I have two theories: one, the simple one, is to take the credentials you entered, assume that they are valid, and just accept that risk if they are not, and then drop you off at a Microsoft login page asking you to re-enter your username and password. In this scenario, the user assumes that they must have mistyped it, and they proceed to carefully type it, and then when they are successfully logged into Microsoft, they don't recognize that they were phished at all and get distracted by the fact that they are now logged into Microft, typically Office 365 in these kinds of attacks against enterprises because of the wide adoption of O365.
+The other theory, significantly more difficult to pull off, is that these advanced attacks send the credentials to Microsoft to test them and for validity, then successfully log you in so that the user never realizes what happened.  
 
-The other theory, significantly more difficult to pull off, is that these advanced attacks patch the credentials into Microsoft to test them and then successfully log you in so that you never realized what happened. (This would not work if MFA was enabled on the account, which, at the time of this writing is optional on outlook email accounts.)
+I'm going to dig into this in the future and consider this simple attack to have been a sort of warm up exersise for the real study. You can expect this in the future, with my conclusions.
 
-This also would not work depending on the way the Referrer headers are accepted on Microsoft login pagesMy next post will attempt to determine what exactly happens in a more sophisticated social engineering attack. 
+In the mean time, because of the state of security in 2019, set up MFA, preferably hardware keys, on all accounts. Just assume your passwords are all in the hands of baddies, along with all your credit cards and social security numbers.
+
+Tootles.
+
+Alex
 
