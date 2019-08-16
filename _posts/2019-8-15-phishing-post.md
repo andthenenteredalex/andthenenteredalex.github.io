@@ -1,6 +1,6 @@
 ---
 categories: ['welcome']
-published: false
+published: true
 ---
 
 Hello, there! This is Alex, I'm a cyber security analyst and this is my blog. I'm going to be rambling about technical things and exploring ideas here.
