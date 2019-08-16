@@ -20,7 +20,7 @@ I opened a phishing URL I found and have a tool called Fiddler running in the ba
 
 After clicking the link, here is the landing page. It is likely that this was sent out in emails to enterprises with a message along the lines of "Here is the document you asked for. Kindly respond with feedback at your earliest convenience." There is generally a sense of urgency, and it is common to see misspellings in emails as well. 
 
-![useful image1]({{ site.url }}/images/Page1-phish.PNG)
+![useful image1]({{ site.url }}/-phish-this-is-an-image-for-first-page.png)
 
 Notice the URL in the window. It used to be the advice to users was to look for the lock. But this is based around a fundamental misunderstanding for how digital certificates are used. All the lock really means is that your connection is encrypted, and, if you don't see any red or errors, depending on yours browser, it means that the person or organization in control of the server on the other end has been certified to be who they say they are, as vouched for by a neutral 3rd party who your computer OS manufacturer also trusts. That's it. See the loophole? The certificate is certified by a neutral party to belong to the person who is using it on the other end. Do you trust that they're who they say they are? Of course they're who they say they are! Why would they not be? You can see mismatched errors, for example in using the certificate with a domain that is not listed on the certificate.
 
@@ -31,7 +31,7 @@ But the other thing to note, the initial certificate is given to Microsoft. Micr
 
 After clicking the Review Document link for the PDF, I'm taken to this page. A rather generic, unflashy page. You will never see a webpage on the up and up which gives you so many sign-in options, especially not a generic 'other'.
 
-![useful image2]({{ site.url }}/images/Page2-phish.PNG)
+![useful image2]({{ site.url }}/phish-image-page-second.png)
 
 Again, notice the URL in the window. And the fact that we see the lock... That means that our connection is encrypted and that whoever is in control of wordpress1968310[.]home[.]pl is who they say they are, as vouched for by a neutral entity which your OS manuacturer trusts.
 
