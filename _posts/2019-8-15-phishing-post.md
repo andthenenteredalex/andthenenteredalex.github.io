@@ -14,7 +14,7 @@ In this post I will dive deep into the HTTP protocol to see how one of these att
 
 # The attack
 
-ATTENTION: Be careful if you choose to open untrusted URLs, I am opening this in a safe lab and tested this out in a sandbox to see which processes spawned and what was dropped. I am not responsible if anyone chooses to follow along or open experiment with their own risky URLs.
+ATTENTION: Be careful if you choose to open untrusted URLs, I am opening this in a safe lab and tested this out in a sandbox to see which processes spawned and what was dropped. I am not responsible if anyone chooses to follow along or experiment with their own risky URLs.
 
 I opened a phishing URL I found and have a tool called Fiddler running in the background which is capturing the protocol information. 
 
@@ -33,7 +33,7 @@ After clicking the Review Document link for the PDF, I'm taken to this page. A r
 
 ![useful image22]({{ site.url }}/images/phish-image-page-second.png)
 
-Again, notice the URL in the window. And the fact that we see the lock... That means that our connection is encrypted and that whoever is in control of wordpress1968310[.]home[.]pl is who they say they are, as vouched for by a neutral entity which your OS manuacturer trusts.
+Again, notice the URL in the window. And the fact that we see the lock... That means that our connection is encrypted and that whoever is in control of the server we're connecting to at wordpress1968310[.]home[.]pl is who they say they are, as vouched for by a neutral entity which your OS manuacturer trusts.
 
 I'm going to click all three, "Login with Office 365", "Login with Outlook", and "Login with Other Mail" just because I'm curious and want to see where these go.
 
