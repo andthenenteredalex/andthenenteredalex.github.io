@@ -36,8 +36,26 @@ Nothing flashy here. This is just a plain old Office Outlook Web Access (OWA) lo
 Notice the green lock, that means whoever controls the server and domain name was able to get a valid certificate and that our connection is encrypted. 
 Forms are made to be filled in, so here we go. I enter bogus credentials. When I see a phishing site that I have suspicion is doing some validity checking, I'll enter valid Microsoft Outlook credentials just to see what happens (it's an account I created just for these purposes)
 ![useful image334]({{ site.url }}/images/-phish-second-page.png)
+
+After entering bogus credentials, let's see where they're going. I have Fiddler already running in the background, let's see if wecan find the HTTP POST request to the server carrying the credentials, because we know they're headed somewhere.
 ![useful image335]({{ site.url }}/images/-phish-third-page.png)
+Aaaaand here they are. They're in a post request with creative paramter names of username and password. They're headed to the access.php page at the same domain /Infografia/bid/
+And here's the raw POST request data:
 ![useful image336]({{ site.url }}/images/-phish-fourth-page.png)
+Check this out:
 ![useful image337]({{ site.url }}/images/-phish-fifth-page.png)
+After passing my bogus credentials, I'm greeted with a request for more information. "Information Importand Update"
+They're asking me to verify my personal information in order "to help Outlook Web Access to update your information".
+This is great! Why do they need to update it? I've not encountered nearly as many social engineering sites that request more information than username and password. I've seen credit card before, but not too often do you see one asking for your birthdate and address.
+This'll be fun, let's see what it does when I fill this in.
+
 ![useful image338]({{ site.url }}/images/-phish-sixth-page.png)
+Here I put in more bogus information. The passwords don't even match. It fully accepted this. I covered up the valid address to protect the company whose URL is listed here.
+
 ![useful image339]({{ site.url }}/images/-phish-seventh-page.png)
+After I entered all that information, I'm taken to a page thanking me for taking the time to verify my information.
+I did not get redirected, however, when I clicked the "click here" link, it took me to the company whose name I'm protecting.
+![useful image339]({{ site.url }}/images/-phish-eigth-page.jpg)
+And here we are, at a valid company's Outlook Web Access email server login page. If you worked at this company you would have had a seamless experience and it would ease suspicions when you log in here and your credentials are accepted and you're taken to your email account. 
+
+Thanks for journeying with me today, I intend to be back with many more investigations and other exploratory items. 
