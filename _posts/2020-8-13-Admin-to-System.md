@@ -1,6 +1,6 @@
 ---
 categories: ['welcome']
-published:true
+published: true
 ---
 
 
