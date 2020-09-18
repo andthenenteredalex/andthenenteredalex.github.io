@@ -4,7 +4,7 @@ published: true
 ---
 
 
-# Run an executable as system from an Administrative account and bypass UAC prompt
+Run an executable as system from an Administrative account and bypass UAC prompt
 
 With administrative access to a computer running Windows, it is trivial to run an executable as system. 
 
